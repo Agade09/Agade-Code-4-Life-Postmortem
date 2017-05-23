@@ -84,7 +84,7 @@ action Decide_Move(state){
 
 An easy improvement on the above alpha-beta pruned minimax is to order moves according to the principal variation found at the previous depth. Indeed, alpha beta pruning works best if the best moves are tested first and the best moves are often the same at depth N and N+1.
 
-A good place to practice minimax on Codingame is the [Tron](https://www.codingame.com/multiplayer/bot-programming/tron-battle) game with the "[Voronoi heuristic](https://kootenpv.github.io/2016-09-07-ai-challenge-in-78-lines)" as your evaluation function.
+A good place to practice minimax on Codingame is the [Tron game](https://www.codingame.com/multiplayer/bot-programming/tron-battle) with the "[Voronoi heuristic](https://kootenpv.github.io/2016-09-07-ai-challenge-in-78-lines)" as your evaluation function.
 
 Now that I've talked about the basics of minimax which many of you know about I need to talk about the two important parts of my code:
 * The `Possible_Moves(state,id)` function
