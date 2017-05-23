@@ -208,4 +208,4 @@ It was harder than I'd hoped to get a minimax to work. I hadn't anticipated that
 
 If it comes out as a multiplayer I think surely other people would beat my AI. However I do think this type of minimax bot must be the meta for this game.
 
-It feels a bit unreal having finished 1st,2nd and 1st these last three contests.
+It feels a bit unreal having finished 1st, 2nd and 1st these last three contests.
