@@ -192,6 +192,8 @@ There are probably a decent amount of situations where it's good to go to DIAGNO
 * If no samples are ready possible moves are going to MOLECULES and SAMPLES.
 * If no samples are ready and there are producible samples in the cloud and enough samples in the cloud in total so that I can fill up to 3 then a possible move is also to go to DIAGNOSIS
 
+Adding the ability to wait at the LABORATORY made my AI alot stronger because it made my AI capable of blocking the enemy by not releasing molecules and it made my AI aware that the enemy would do the same and therefore not incorrectly expect the molecules to be released.
+
 ## Performance
 
 I had between ~25-50k calls to Simulate() per turn and reached a depth which varied greatly between 4 (moves per player) when both players were at the molecules and ~15. Most of the compute time was in the evaluation function. To improve depth/performance I think the most important next step would have been to find a cheap hashing function for the game state to be able to make [transposition tables](https://chessprogramming.wikispaces.com/Transposition+Table) to store values of `Eval(state)` and best moves for ordering.
