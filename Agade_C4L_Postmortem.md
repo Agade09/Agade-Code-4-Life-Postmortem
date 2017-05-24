@@ -143,7 +143,7 @@ This was a very important part of the AI. In a normal minimax you would just loo
 
 My `Possible_Moves(state,id)` function is split into 4 parts for the 4 different locations of the player.
 
-If the player is at the starting position the only possible moves is to go to SAMPLES. If the player's eta is >0 then the only move is to WAIT. The possibles moves at the 4 different locations are described below.
+If the player is at the starting position the only possible moves is to go to SAMPLES. If the player's eta is >0 then the only move is to WAIT. The possible moves at the 4 different locations are described below.
 
 ### Samples
 
